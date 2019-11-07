@@ -1,0 +1,44 @@
+
+html {
+  background: #212121;
+}
+
+h1 {
+  font-family: monospace;
+  color : white;
+  text-align: center;
+  -webkit-user-select: none;
+}
+
+
+p {
+  -webkit-user-select: none;
+  -webkit-app-region: no-drag;
+  font-family: monospace;
+  font-size : 18px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.example_c {
+-webkit-user-select: none;
+-webkit-app-region: no-drag;
+font-family: monospace;
+font-size: 18px;
+color: white !important;
+text-transform: uppercase;
+padding: 10px;
+border: 4px solid #424242 !important;
+border-radius: 6px;
+display: inline-block;
+margin-top: 5px;
+text-decoration: none;
+}
+
+.example_c:hover {
+color: #ffffff !important;
+border-color: #424242 !important;
+background: #7E57C2 !important;
+transition: all 0.4s ease 0s;
+}

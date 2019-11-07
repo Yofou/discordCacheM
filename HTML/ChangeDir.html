@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cache-Manager</title>
+    <link href="..\CSS\Main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style="-webkit-app-region: drag">
+
+    <h1>Cache Manger</h1>
+    <div class="button_cont" id = "backBTN" align="right">
+      <a class="example_c" style = "background: #673AB7">Back</a>
+    </div>
+
+    <div class="button_cont" id = "CacheButton" align="center">
+      <a class="example_c" style = "background: #673AB7">Select Cache Directory</a>
+    </div>
+
+    <p id = "CacheP"> <b>Loading JSON...</b> </p>
+
+    <div class="button_cont" id = "DumpButton" align="center">
+      <a class="example_c" style = "background: #673AB7">Select Dump Cache Directory</a>
+    </div>
+    <p id = "DumpP"> <b>Loading JSON...</b> </p>
+    <input id="OpenCacheFile" type="file"  style="display: none" webkitdirectory  directory multiple/>
+    <input id="OpenDumpFile" type="file" style="display: none" webkitdirectory  directory multiple/>
+
+    <script src="..//JS//SelectDir.js"></script>
+  </body>
+
+</html>
