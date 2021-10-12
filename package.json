@@ -4,7 +4,7 @@
   "description": "",
   "main": ".//JS//Main.js",
   "dependencies": {
-    "electron": "^4.0.6",
+    "electron": "^11.5.0",
     "file-type": "^10.8.0",
     "mime-db": "^1.38.0",
     "mime-type": "^3.0.7",
